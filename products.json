@@ -3,69 +3,69 @@
     "id": 1,
     "name": "Burger",
     "short_des": "Mushroom Sauce",
-    "image": "static/images/burger.png",
+    "image": "static/images/burger.webp",
     "price": 5.15
   },
   {
     "id": 2,
     "name": "Food Combo",
     "short_des": "Mushroom Sauce",
-    "image": "static/images/combo.png",
+    "image": "static/images/combo.webp",
     "price": 9.15
   },
   {
     "id": 3,
     "name": "Pizza",
     "short_des": "Mushroom Sauce",
-    "image": "static/images/pizza.png",
+    "image": "static/images/pizza_top.webp",
     "price": 6.15
   },
   {
     "id": 4,
     "name": "Cake",
     "short_des": "Mushroom Sauce",
-    "image": "static/images/cake.png",
+    "image": "static/images/cake.webp",
     "price": 5.15
   },
   {
     "id": 5,
     "name": "Gyro Sandwich",
-    "image": "static/images/gyro.jpeg",
+    "image": "static/images/gyro.webp",
     "rating": "4.9",
     "price": 15.00
   },
   {
     "id": 6,
     "name": "Enchilade",
-    "image": "static/images/enchiled.jpeg",
+    "image": "static/images/enchiled.webp",
     "rating": "5.0",
     "price": 25.50
   },
   {
     "id": 7,
     "name": "Green Beans",
-    "image": "static/images/green_beans.jpeg",
+    "image": "static/images/green_beans.webp",
     "rating": "4.9",
     "price": 12.00
   },
   {
     "id": 8,
     "name": "Pizza",
-    "image": "static/images/pizza.jpeg",
+    "image": "static/images/pizza.webp",
     "rating": "5.0",
     "price": 18.50
   },
   {
     "id": 9,
     "name": "Chicken Pot Pie",
-    "image": "static/images/chicken_pot.jpeg",
+    "image": "static/images/chicken_pot.webp",
     "rating": "4.9",
     "price": 25.00
   },
   {
     "id": 10,
     "name": "Green Salad",
-    "image": "static/images/green_salad.jpeg",
+    "image": "static/images/green_salad.webp",
     "rating": "4.9",
     "price": 5.00
   }

@@ -87,7 +87,7 @@ h1 {
 }
 
 #hero_section {
-  background-image: url('static/images/mid_arrow.png');
+  background-image: url('static/images/mid_arrow.webp');
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -261,7 +261,7 @@ h1 {
 
 .short_container {
   text-align: center;
-  border-right: 1px solid #00000085;
+  border-right: 1px solid #B6B6B6;
   padding: 1vw 0;
   padding-right: 10vw;
   margin-right: 10vw;
