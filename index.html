@@ -7,12 +7,32 @@
     <meta name="description" content="vai ager din e deadline er age boshte pari ni :v Tai raat 2 tay boshlam. ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/style_responsive.css">
   </head>
   <body>
 
     <main>
       <div id="title">
+
         <img src="static/images/title_logo.webp" width="94px" height="56px" alt="logo">
+
+        <button id="hamburger" class="toggle-nav">&#9776;</button>
+
+        <nav class="nav">
+          <button id="cross" class="toggle-nav">&#735;</button>
+          <div id="mid_title">
+            <p>Home</p>
+            <p>Cart</p>
+          </div>
+          <div id="search_button">
+            <img src="static/images/search.webp" width="25px" height="26px" alt="search">
+            <input type="text" placeholder="Search">
+            <div id="vartical_bar">&nbsp;</div>
+            <img src="static/images/cart.webp" width="21px" height="23px" alt="cart">
+            <div id="cart_count">2</div>
+          </div>
+        </nav>
+
         <div id="mid_title">
           <p>Home</p>
           <p>Cart</p>
@@ -24,6 +44,7 @@
           <img src="static/images/cart.webp" width="21px" height="23px" alt="cart">
           <div id="cart_count">2</div>
         </div>
+
       </div>
       <!-- End #title -->
 
@@ -178,10 +199,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipidrscing elit. Purus mauris sem sed urna venenatis vivamus. Egestas in velit nulla viverra turpis id ac. Amet faucibus tempus.
               </p>
               <div id="newsletter_button_container">
-                <form>
-                  <input id="newsletter_input" type="text" placeholder="Type your email..." required>
-                  <button id="newsletter_button" type="submit">Subscribe</button>
-                </form>
+                <input id="newsletter_input" type="text" placeholder="Type your email..." required>
+                <button id="newsletter_button" type="submit">Subscribe</button>
               </div>
               <div id="newsletter_output"></div>
             </div>

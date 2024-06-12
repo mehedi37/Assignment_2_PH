@@ -125,3 +125,12 @@ footer_button.addEventListener('click', function() {
     footer_output.innerHTML = "";
   }, 2000);
 });
+
+// small screen menu
+document.getElementById('hamburger').addEventListener('click', function() {
+  document.querySelector('.nav').classList.add('open');
+});
+
+document.getElementById('cross').addEventListener('click', function() {
+  document.querySelector('.nav').classList.remove('open');
+});
